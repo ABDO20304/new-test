@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:ital@1&display=swap');
+*{
+ font-family: "Ubuntu", sans-serif;
+ margin: 0;
+ padding: 0;
+}
+body{
+background-image: linear-gradient(to right,#3a164b, #1c5f63);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.contenare{
+    background-position: center;
+    background-color: #3a164b;
+    width: 90%;
+    height: 90%;
+    background-image: linear-gradient(to right,#3c1158, #00000086 ),
+    url(téléchargement.webp);
+}
+.contenare:hover{
+    background-color: #3a164b;
+    width: 90%;
+    height: 90%;
+    background-image: linear-gradient(to right,#3c1158, #00000000 ),
+    url(téléchargement.webp);
+    align-items: center;
+}
+header{
+    color: silver;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+}
+ul{
+    list-style: none;
+    color: silver;
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 50%;
+}
+li a:hover{
+    list-style: none;
+    color: silver;
+    display: flex;
+    border-bottom: 2px solid ;
+
+}
+.logo{
+    font-size: 50px;
+    font-style: oblique;
+}
+.hero{
+    margin: 5%;
+}
+h2{
+    font-size: 80px;
+    color: bisque;
+
+}
+p{
+    color: bisque;
+    max-width: 25%;
+    min-width: 20%;
+
+}
+.bt{
+    margin: 30px 20px;
+    background-color: #1c5f63;
+    color: aliceblue;
+    border-radius: 20px;
+    padding:10px 20px;
+    transition: 0.7s ease;
+}
+.bt:hover{
+    color: #000000;
+    background-color: aliceblue;
+    transform: scale(1.1);
+
+}
